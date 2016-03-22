@@ -99,7 +99,7 @@ default: {
 ```
 See [js-beautify](https://github.com/einars/js-beautify) for more options.
 
-#### options.includedemo (since 0.3.5)
+#### options.includedemo (since 0.3.5) .hbs (since 1.0.1) 
 Type: `boolean|string|function`  
 Default value: `false`
 
@@ -144,6 +144,8 @@ The data passed to the template looks like this:
   ]
 }
 ```
+since 1.0.1 change to .hbs  demo partial can now be included with assemble or handlebars for a more custom preview generation 
+
 
 #### options.cleanup (since 0.2.6)
 Type: `boolean`  or `Array`
@@ -152,6 +154,12 @@ Default value: `false`
 This option can be used to clean up inline definitions that may jeopardise later CSS-based styles.  
 When set to true clean up all inline `style` attributes.  
 Apart from true / false, the value of this property can be an array of inline attributes ( like `fill`, `stroke`, ...) you want to remove from the elements in the SVG.
+
+#### options.cleanupdefs (since 1.0.1)
+Type: `boolean`  
+Default value: `false`  
+
+When set to true, no `<defs>` are written. usefull for style cleanup
 
 #### options.cleanupdefs (since 0.3.0)
 Type: `boolean`  

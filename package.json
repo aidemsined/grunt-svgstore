@@ -1,6 +1,6 @@
 {
   "name": "grunt-svgstore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merge SVGs from a folder",
   "devDependencies": {
     "grunt": "~0.4.5",
