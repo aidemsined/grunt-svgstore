@@ -103,7 +103,7 @@ See [js-beautify](https://github.com/einars/js-beautify) for more options.
 Type: `boolean|string|function`  
 Default value: `false`
 
-This will include a demo HTML (named like `destName + -demo.html`) from where you can copy your `<use>` blocks.
+This will include a demo HBS (named like `destName + -demo.hbs`) from where you can copy your `<use>` blocks.
 
 The default template used looks like:
 

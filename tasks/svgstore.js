@@ -398,7 +398,7 @@ module.exports = function (grunt) {
           demoHTML = handlebars.compile(template)(viewData);
         }
 
-        var demoPath = path.resolve(path.dirname(file.dest), destName + '-demo.html');
+        var demoPath = path.resolve(path.dirname(file.dest), destName + '-demo.hbs');
         grunt.file.write(demoPath, demoHTML);
         grunt.log.writeln('Demo file ' + chalk.cyan(demoPath) + ' created.');
       }
